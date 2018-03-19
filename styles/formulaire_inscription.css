@@ -1,0 +1,108 @@
+#formInscription {
+	margin: 20px auto 20px auto;
+	width: 80%;
+	border: 1px solid #00ADE0;
+	height: 640px;
+}
+#headerFofmInscription {
+	width: 100%;
+	font-family: Raleway-bold;
+	font-size: 2em;
+	float: left;
+	line-height: 3em;
+	background-color: #00ADE0;
+	color: white;
+}
+#headerFofmInscription h1{
+	font-size: 1.6em;
+}
+#inscriptionLeftColoumn {
+	width: calc(50% - 4px);
+	font-family: Raleway-regular;
+	padding: 20px 20px 40px 20px;
+	text-align: left;
+	box-sizing: border-box;
+	float: left;
+}
+#inscriptionRightColoumn {
+	width: calc(50% - 4px);
+	float: left;
+	font-family: Raleway-regular;
+	padding: 20px;
+	text-align: left;
+	box-sizing: border-box;
+}
+#inscriptionLeftColoumn .textinput {
+	width: 16em;
+	height: 2em;
+	font-size: 1.5em;
+	line-height: 2em;
+	margin-bottom: 1em;
+	margin-left: calc(50% - 8em);
+	text-indent: 10px;
+}
+#inscriptionLeftColoumn label{
+	font-size: 1.5em;
+	line-height: 1.8em;
+	margin-left: calc(50% - 8em);
+}
+#inscriptionRightColoumn .textinput {
+	width: 16em;
+	height: 2em;
+	font-size: 1.5em;
+	line-height: 2em;
+	margin-bottom: 1em;
+	margin-left: 3em;
+}
+#inscriptionRightColoumn label{
+	font-size: 1.5em;
+	line-height: 1.8em;
+}
+#inscriptionRightColoumn label:not([class]){
+	margin-left: 3em;
+}
+#inscriptionRightColoumn .checkboxes{
+	font-size: 1.5em;
+	line-height: 2em;
+	margin-bottom: 1em;
+	margin-left: 3em;
+}
+#inscriptionRightColoumn .selFormation{
+	width: 20em;
+	height: 2em;
+	font-size: 1.5em;
+	line-height: 2em;
+	margin-bottom: 1em;
+	margin-left: 3em;
+}
+#inscriptionRightColoumn textarea{
+	font-size: 1.5em;
+	line-height: 1.8em;
+	margin-left: 4em;
+	width: 24em;
+	height: 8em;
+	margin-bottom: 2em;
+}
+.textinput:focus {
+	border: 1px solid #39c1cc;
+	box-shadow: 0 0 10px rgba(57, 193, 204,0.5)
+}
+.buttonSubmit {
+	background-color: #005788;
+	text-transform: uppercase;
+	border: none;
+	margin: 30px auto 0 2.5em;
+	color: white;
+	width : 130px;
+	height : 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.8em;
+	cursor: pointer;
+	box-shadow: 1px 1px 2px 2px #AAA;
+	-moz-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}

@@ -1,0 +1,188 @@
+.inscriptionLien a {
+    position: absolute;
+    text-decoration: none;
+    top: 80%;
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    font-family: Raleway-regular;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 1.48px;
+    font-size: 0.34em;
+    padding: 10px 10px 6px 10px;
+    width: 236px;
+    height: 26px;
+    background-color: #005788;
+    border: 2px solid white;
+    transform: translate(-50%, -50%);
+}
+.containerForTextBlocks a{
+	text-decoration: none;
+	
+}
+
+.inscriptionLien a:hover {
+    background-color: #1372a7;
+
+}
+
+.textInscription h2 {
+
+    width: 100%;
+    padding-bottom: 2%;
+    padding-top: 3%;
+    font-family: Raleway-bold;
+    font-size: 25px;
+    text-align: left;
+    line-height: normal;
+    color: #1372a7;
+
+
+}
+
+.textInscription p {
+    width: 100%;
+    font-family: Raleway-regular;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #1372a7;
+
+}
+
+.textInscription span {
+    width: 100%;
+    font-family: Raleway-semibold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #1372a7;
+}
+
+.reserve {
+
+    width: 300px;
+    height: 20px;
+    font-family: Raleway-regular;
+    font-size: 16px;
+    color: #1372a7;
+    border: 2px solid #1372a7;
+    padding: 8px 8px 4px 8px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.reserve:hover {
+
+    width: 300px;
+    height: 20px;
+    font-family: Raleway-regular;
+    font-size: 16px;
+    background-color: #ea4f55;
+    color: #fff;
+    border: 2px solid #1372a7;
+    padding: 8px 8px 4px 8px;
+    line-height: 16px;
+    margin-bottom: 20px;
+    letter-spacing: normal;
+
+}
+
+.textAdmission h3 {
+
+    width: 80%;
+    padding-bottom: 2%;
+    padding-top: 3%;
+    font-family: Raleway-semibold;
+    font-size: 22px;
+    text-align: left;
+    line-height: normal;
+    color: #575a5c;
+}
+
+.textAdmission h4 {
+
+    width: 80%;
+    padding-bottom: 2%;
+    padding-top: 3%;
+    font-family: Raleway-semibold;
+    font-size: 20px;
+    text-align: left;
+    line-height: normal;
+    color: #575a5c;
+}
+
+.textAdmission p {
+
+    width: 80%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-family: Raleway-regular;
+    font-size: 16px;
+    text-align: left;
+    line-height: normal;
+    color: #575a5c;
+}
+
+aside {
+    float: right;
+    font-size: 12px;
+    width: 250px;
+    height: 750px;
+    padding-left: 40px;
+    background-color: #e8e8e8;
+    margin-left: 20px;
+    ;
+
+}
+
+aside p {
+    float: right;
+    font-size: 14px;
+    line-height: normal;
+    width: 250px;
+    text-align: left;
+    padding: 20px;
+}
+
+
+
+aside input {
+
+    width: 200px;
+    text-align: center;
+    height: 25px;
+    font-size: 12px;
+	color: #9f9898;
+    margin-right: 29px;
+}
+
+aside select {
+
+    width: 200px;
+    text-align: center;
+    height: 30px;
+    font-size: 12px;
+	color: #9f9898;
+    margin-right: 29px;
+}
+
+aside h4 {
+    float: right;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 40px;
+    width: 250px;
+    padding: 20px;
+    line-height: normal;
+}
+
+.submit {
+
+    background-color: #00ade0;
+    width: 204px;
+    height: 35px;
+    color: #fff;
+
+}

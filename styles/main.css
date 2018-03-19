@@ -1,0 +1,367 @@
+@font-face {
+    font-family: Raleway-regular;
+    src: url(../fonts/raleway-regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway-semibold;
+    src: url(../fonts/raleway-semibold.ttf);
+}
+
+@font-face {
+    font-family: Raleway-light;
+    src: url(../fonts/raleway-light.ttf);
+}
+
+@font-face {
+    font-family: Raleway-bold;
+    src: url(../fonts/raleway-bold.ttf);
+}
+
+/* ------------ GLOBAL ---------------*/
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: Raleway-regular;
+    font-size: 62.5%;
+    min-width: 960px;
+
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* ------------ Animation Homepage ---------------*/
+
+#slider {
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation-name: slider;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+@keyframes slider {
+    0% {
+        background: url(../images/building_1.jpg);
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+
+    }
+    25% {
+        background: url(../images/building_1.jpg);
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+
+    }
+    75% {
+        background: url(../images/bureautique_3.jpg);
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        ;
+
+    }
+    100% {
+        background: url(../images/reseautique2.jpg);
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+
+}
+
+/* ------------ Navigation Bar ---------------*/
+
+.logo {
+
+    display: block;
+    padding-top: 20px;
+    padding-left: 40px;
+
+}
+
+#mainNav ul {
+    display: inline-block;
+    list-style: none;
+	position: absolute;
+    margin-left: calc(100% - 800px);
+    margin-top: -36px;
+
+}
+
+#mainNav a {
+    text-decoration: none;
+    color: white;
+	display: block;
+	float: left;
+    font-family: Raleway-light;
+    font-size: 1.3em;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+#mainNav li {
+    display: inline-block;
+    height: 11px;
+    padding: 9px;
+    margin: 8px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(0, 87, 139, 0.8);
+    margin-right: 8px;
+    border: 1px solid #fff;
+    z-index: 1;
+}
+
+
+
+#mainNav li:hover {
+    border: 1px solid #00ade0;
+    background-color: #005788;
+}
+
+
+.nav_background {
+    background-color: #005788;
+    height: 68px;
+}
+
+.centered {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    font-family: Raleway-regular;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-size: 52px;
+    padding: 40px;
+    width: 400px;
+    height: 240px;
+    line-height: 60px;
+    background-color: rgba(255, 0, 0, 0.3);
+    margin: auto;
+    border: 8px solid white;
+    transform: translate(-50%, -50%);
+}
+
+.programmesLien a {
+    /* lien aux programsmes sur la page index */
+    position: absolute;
+    text-decoration: none;
+    top: 76%;
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    font-family: Raleway-regular;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 1.48px;
+    font-size: 0.34em;
+    padding: 10px 10px 6px 10px;
+    width: 250px;
+    height: 26px;
+    background-color: #005788;
+    border: 2px solid white;
+    transform: translate(-50%, -50%);
+}
+
+.programmesLien a:hover {
+    
+    background-color: #042f48;
+    
+}
+
+
+/* ------------ Article Text Columns ---------------*/
+
+.textEnColoumn p {
+    font-family: Raleway-regular;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: left;
+    letter-spacing: 0.1em;
+    text-align: justify;
+}
+
+.textEnColoumn h2 {
+    font-family: Raleway-light;
+    font-size: 2.5em;
+    padding: 1em 0 1em 0;
+    letter-spacing: 1px;
+}
+
+.textEnColoumn {
+    display: block;
+	float: left;
+    width: 40%;
+    padding: 2%;
+   
+}
+
+article {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.containerForTextBlocks {
+    padding: 8% 10% 8% 10%;
+    display: inline-block;
+    color: black;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.containerForImageWide {
+    width: 100%;
+    box-sizing: content-box;
+
+}
+
+.containerForTextBlocksTurquoise {
+    padding: 8% 10% 8% 10%;
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 24px;
+    background-color: #00ade0;
+    box-sizing: border-box;
+}
+
+.containerForImageEnseignant,
+.containerForImageContact{
+    width: 100vw;
+    height: 80%;
+    display: block;
+    clear: both;
+    box-sizing: border-box;
+
+}
+
+.containerForImageInscription,
+.containerForImageTemoignages {
+    width: 100vw;
+    height: 80%;
+    display: block;
+    clear: both;
+    margin-left: 0px;
+    box-sizing: border-box;
+
+}
+
+/* ------------ FOOTER ---------------*/
+
+footer {
+    box-sizing: border-box;
+
+}
+
+.footer-content {
+    background: #005788;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.logo-footer {
+
+    padding-left: 15.4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+footer p,
+pre {
+
+    padding-left: 15.4%;
+    font-family: Raleway-regular;
+    font-size: 1.1em;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+footer .name {
+
+    font-family: Raleway-regular;
+    font-size: 1.6em;
+    color: #fff;
+}
+
+
+.fa {
+
+    font-size: 20px;
+    padding: 8px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 5px;
+    float: right;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+    margin-top: 38px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-top: 38px;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    margin-top: 38px;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    margin-top: 38px;
+    margin-right: 240px
+}
+
+/* ------------ FORMATIONS ---------------*/
+
+
+
+/* ------------ INSCRIPTIONS ---------------*/
+
+
+
+/* ------------ TEMOIGNAGES ---------------*/
+
+
+
+/*-------------ENSEIGNANTS--------------*/
+
+
+
+
+/*-----------------------CONTACT-------------------------*/
+
+
+
+
+

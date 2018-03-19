@@ -1,0 +1,135 @@
+#mainContainerCourses, #mainContainerFormations {
+	display:flex;
+	flex-direction:column;
+	box-sizing: content-box;
+	margin: 20px auto 30px auto;
+	width: 80%;
+}
+.listOfFormation a{
+	text-decoration: none;
+	display: block;
+	background-color: #149cb9;
+	margin: 10px 5px 10px 5px;
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-family: Raleway-regular;
+	font-size: 1.7em;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+.listOfFormation a:hover {
+	background-color: #0f738a;
+}
+.listOfFormation h2 {
+	text-align: center;
+	font-family: Raleway-semibold;
+	font-size: 2em;
+	margin: 20px 0 20px 0;
+	color: #0d6073;
+}
+.listOfFormation div {
+	text-align: center;
+}
+.listOfFormation, .containerOfDescription {
+	flex:1;
+	display:flex;
+	flex-direction:row;
+}
+.listOfFormation div {
+	flex:1;
+	background-color: #a3e6f5;
+	border-left: 1px solid #0d6073;
+	border-top: 1px solid #0d6073;
+}
+.listOfFormation div:first-child {
+	-moz-border-top-left-radiu: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-khtml-border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+	
+}
+.listOfFormation div:last-child {
+	-moz-border-top-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-khtml-border-top-right-radius: 5px;
+	border-right: 1px solid #0d6073;
+}
+.descriptionContainer {
+	flex:1;
+	padding: 40px;
+	display: none;
+	font-family: Raleway-regular;
+	font-size: 1.5em;
+	text-align: left;
+	border: 1px solid #0d6073;
+	-moz-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-khtml-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-moz-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-khtml-border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.descriptionContainer li{
+	padding: 0 20px 0 20px;
+	line-height: 2em;
+}
+.descriptionContainer h3{
+	padding: 20px 0 20px 0;
+	text-align: center;
+	font-family: Raleway-semibold;
+	font-size: 17px;
+}
+.descriptionContainer p{
+	padding: 10px 0 10px 0;
+	line-height: 1.5em;
+}
+.descriptionContainer li::before {
+	content: "\2611";
+}
+.fc11{
+	display:block;
+}
+.listOfFormation ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px 5px 0px 5px;
+}
+.titreFormation h2 {
+    font-family: Raleway-bold;
+    font-size: 25px;
+    padding: 40px 0 10px 0;
+    text-align: left;
+   text-align: center;
+}
+
+.titreFormation p {
+    font-family: Raleway-bold;
+    font-size: 20px;
+    padding: 15px 0 5px 0;
+    text-align: left;
+    text-align: center;
+}
+.inscriptionForCourses {
+	display: block;
+	background-color: #149cb9;
+	color: white;
+	width: 150px;
+	height: 30px;
+	font-size: 2em;
+	text-decoration: none;
+	text-align: center;
+	margin: 20px auto 20px auto;
+	line-height: 30px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+.inscriptionForCourses:hover{
+	background-color: #0f738a;
+}
